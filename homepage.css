@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 100%;
+    border: 2px solid red;
+}
+
+.head{
+    background-color: black;
+    width: 100%;
+    text-align: left;
+   
+}
+h3{
+    font-style: italic;
+    color: #ffffff;
+    font: 18px sans-serif;
+    margin: 0px 10px ;
+    padding: 10px;
+
+}
+h1{
+    font-weight: 900;
+    /* font: 1em sans-serif; */
+    font:36px sans-serif;
+    color: #ffffff;
+    margin: 0px 10px ;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    width: 100%;
+}
+/* #list div{
+    width: 100%;
+} */
+.listitems{
+    font: 16px;
+    width: 20%;
+    margin: 15px;
+    padding: 6px 0px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    width: 100%;
+}
+@media only screen and (min-width:768px){
+    .listitems {
+        width: 48%px;
+        font: 40px;
+        padding: 10px;
+    }
+    h1{
+       font: 48px sans-serif;
+        
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .listitems {
+        width: 80%px;
+        font: 100px;
+        padding: 20px;
+    }
+}
+
+
