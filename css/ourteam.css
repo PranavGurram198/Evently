@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+/* header */
+#navigation{
+
+    display: none;
+    justify-content: space-evenly;
+    /* background-color: #111; */
+}
+#navigation a{
+    color: rgb(68, 67, 67);
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 300;
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+/* main section */
+
+  
+  .gallery-section {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+  }
+  
+  .gallery-item {
+    width: 80%;
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    
+  }
+  
+
+/* footer section */
+.footer {
+    background-color: #111;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section h2 {
+    color: #3498db;
+}
+
+.logo .dot {
+    color: red;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p, .footer-section ul, .footer-section form {
+    margin: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.instagram-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #bbb;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (min-width:768px)
+{
+    #navigation{
+        display: contents;
+    }
+    .gallery-item {
+        width: 30%;
+        
+      }
+}
+
+@media only screen and (min-width:1200px)
+{
+    #navigation{
+        display: contents;
+    }
+    .gallery-item {
+        width: 15%;
+        
+      }
+}
