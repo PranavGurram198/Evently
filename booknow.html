@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/booknow.css">
+</head>
+<body>
+    <section id="book-now">
+        <div class="booking-container">
+            <h2>Book Your Tickets</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="check-in">Available Dates</label>
+                    <input type="date" id="check-in" name="check-in" >
+                </div>
+                <!-- <div class="form-group">
+                    <label for="check-out">Check-out Date</label>
+                    <input type="date" id="check-out" name="check-out" required>
+                </div> -->
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" required>
+                        <option value="" disabled selected>Select number of guests</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <button type="submit" class="booking-button">Book Now</button>
+                <button type="submit" class="booking-button"><a href="./index.html">Home</a></button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
